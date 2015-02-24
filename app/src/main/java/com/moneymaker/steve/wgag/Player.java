@@ -12,9 +12,9 @@ public class Player extends Person {
     private ArrayList<Player> buddies;
 
     public Player() {
-        id = 0;
-        age = 0;
-        experience = 0;
+    //    id = 0;
+    //    age = 0;
+    //    experience = 0;
     }
 
     public Player(String name) {

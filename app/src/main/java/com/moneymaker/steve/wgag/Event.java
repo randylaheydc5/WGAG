@@ -14,4 +14,11 @@ public class Event {
     private OutdoorRink rink;
     private Player host;
     private ArrayList<Player> attendees;
+
+    public Event() {
+
+    }
+    public Event(String name) {
+        this.name = name;
+    }
 }

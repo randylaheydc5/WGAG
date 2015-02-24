@@ -11,6 +11,9 @@ public class OutdoorRink {
     private String location;
     private ArrayList<Player> volunteers;
 
+    public OutdoorRink() {
+
+    }
     public OutdoorRink(String name) {
         this.name = name;
     }

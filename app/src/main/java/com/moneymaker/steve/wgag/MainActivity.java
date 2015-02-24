@@ -12,8 +12,16 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        startInitialTests();
     }
 
+    public void startInitialTests() {
+        Player player1 = new Player("Steve Lee");
+        OutdoorRink rink1 = new OutdoorRink("Jack Purcell");
+        Event event1 = new Event("First game of the season");
+        Newsfeed newsfeed = new Newsfeed();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
