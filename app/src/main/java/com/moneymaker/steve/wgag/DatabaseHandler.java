@@ -1,3 +1,8 @@
+/* Database helper class contains all the methods to perform
+   database operations like opening and closing the connection,
+   insert, update, read, delete and other things.
+*/
+
 package com.moneymaker.steve.wgag;
 
 import android.content.Context;
